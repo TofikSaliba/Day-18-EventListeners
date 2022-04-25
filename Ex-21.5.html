@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 21.5</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 800px;
+        margin: 2rem auto;
+        font-size: 22px;
+      }
+      .inputContainer {
+        display: flex;
+        margin-top: 1rem;
+      }
+      span {
+        height: 20px;
+        font-size: 16px;
+        margin-left: 5px;
+        color: red;
+      }
+      .smileyContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>How many smileys do you want to see ?</div>
+      <div class="inputContainer">
+        <input type="text" />
+        <button>Submit</button>
+        <span></span>
+      </div>
+      <div class="smileyContainer"></div>
+    </div>
+  </body>
+  <script src="./Ex-21.5.js"></script>
+</html>
